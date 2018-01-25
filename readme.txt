@@ -23,4 +23,10 @@ git diff
 git log
 git log --pretty=oneline
 
+// 查看命令历史
+git reflog
 
+// 回退到指向版本
+// HEAD指向当前版本，HEAD~1代表上一个版本，以此类推，HEAD~100
+// 也可以commit_id号，可以写开始不重复的几位
+git reset --hard commit_id
