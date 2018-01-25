@@ -18,3 +18,9 @@ git status
 
 // 查看修改内容
 git diff
+
+// 查看修改提交记录
+git log
+git log --pretty=oneline
+
+
