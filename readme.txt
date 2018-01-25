@@ -31,3 +31,9 @@ git reflog
 // HEAD指向当前版本，HEAD~1代表上一个版本，以此类推，HEAD~100
 // 也可以commit_id号，可以写开始不重复的几位
 git reset --hard commit_id
+
+// 用版本库里的版替换工作区的版本
+git checkout -- file
+
+// 删除文件
+git rm
