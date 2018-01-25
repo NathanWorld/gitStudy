@@ -51,14 +51,21 @@ git push origin master
 // 克隆远程库到本地
 git clone git@github.com:NathanWorld/gitskills.git
 
-// 分支 -b 表示创建并切换分支
-git checkout -b dev
+// 查看分支
+git branch 
 
-// 查看当前分支
-git branch
+// 创建分支
+git branch <name>
+
+// 切换分支
+git chectout <name>
+
+// 分支 -b 表示创建并切换分支
+git checkout -b <name>
 
 // 合并分支, 将分支dev上的工作成果合并到master分支上
-git merge dev
+// 合并某分支到当前分支
+git merge <name>
 
 //删除分支
 git branch -d dev
