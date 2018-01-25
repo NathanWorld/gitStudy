@@ -2,6 +2,7 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
+Creating a new branch is quick.
 
 // 初始化一个Git仓库
 git init
@@ -37,3 +38,21 @@ git checkout -- file
 
 // 删除文件
 git rm
+
+// gitHub
+// 添加远程库
+git remote add origin git@github.com:NathanWorld/gitStudy.git
+
+// 推送本地库的所有内容到远程库
+// 第一次需加 -u 参数
+git push -u origin master
+git push origin master
+
+// 克隆远程库到本地
+git clone git@github.com:NathanWorld/gitskills.git
+
+// 分支 -b 表示创建并切换分支
+git checkout -b dev
+
+// 查看当前分支
+git branch
