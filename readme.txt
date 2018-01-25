@@ -56,3 +56,9 @@ git checkout -b dev
 
 // 查看当前分支
 git branch
+
+// 合并分支, 将分支dev上的工作成果合并到master分支上
+git merge dev
+
+//删除分支
+git branch -d dev
