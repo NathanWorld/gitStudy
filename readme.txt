@@ -6,6 +6,9 @@ Creating a new branch is quick AND simple.
 
 My new learn git.
 
+Local: dev
+Remote: dev
+
 // 初始化一个Git仓库
 git init
 
