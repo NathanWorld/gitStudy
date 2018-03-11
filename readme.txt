@@ -4,6 +4,8 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 Creating a new branch is quick AND simple.
 
+My new learn git.
+
 // 初始化一个Git仓库
 git init
 
