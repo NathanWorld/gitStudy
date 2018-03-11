@@ -9,6 +9,8 @@ My new learn git.
 Local: dev
 Remote: dev
 
+Add: dev push
+
 // 初始化一个Git仓库
 git init
 
