@@ -10,6 +10,7 @@ Local: dev
 Remote: dev
 
 Add: dev push
+Add: in dev
 
 // 初始化一个Git仓库
 git init
